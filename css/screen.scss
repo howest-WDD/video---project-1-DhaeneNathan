@@ -35,6 +35,11 @@ body::-webkit-scrollbar {
   border-width: 1rem;
   border-color: $color-orange;
 }
+.c-text{
+  background: $color-lighgray;
+  width: 274px;
+  padding: 1rem;
+}
 
 /*---------------------------------------/*
  # BOOTSTRAP
@@ -67,14 +72,14 @@ body::-webkit-scrollbar {
   border-color: $color-orange;
 }
 .accordion-button {
+  
   color: $color-orange;
   background: none;
   border: solid;
   border-width: 1px;
   border-color: $color-orange;
   &::after {
-    filter: invert(100%);
-    color: $color-orange;
+    filter: invert(65%) sepia(100%) saturate(2086%) hue-rotate(337deg) brightness(100%) contrast(88%);;
   }
 }
 .accordion-button:focus {
@@ -84,6 +89,11 @@ body::-webkit-scrollbar {
   border-width: 1px;
   border-color: $color-orange;
   box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background: none;
+  color: $color-orange;
+     
 }
 
 /*---------------------------------------/*
