@@ -15,12 +15,13 @@ $font-standard: "Open Sans", sans-serif;
 body {
   font-family: $font-standard;
 }
-/*---------------------------------------/*
- # ELEMENTS
-/*---------------------------------------*/
 body::-webkit-scrollbar {
   display: none;
 }
+
+/*---------------------------------------/*
+ # ELEMENTS
+/*---------------------------------------*/
 
 /*---------------------------------------/*
  # OBJECTS
@@ -35,10 +36,46 @@ body::-webkit-scrollbar {
   border-width: 1rem;
   border-color: $color-orange;
 }
+.c-video {
+  margin-top: 3rem;
+  max-width: fit-content;
+}
 .c-text {
+  font-size: 0.8rem;
   background: $color-lighgray;
-  width: 274px;
+  width: 268px;
   padding: 1rem;
+  padding-right: 2rem;
+  box-shadow: -16px 16px $color-orange;
+}
+.c-text__2 {
+  font-size: 0.8rem;
+  background: $color-lighgray;
+  width: 516px;
+  padding: 1rem;
+  padding-left: 5rem;
+  box-shadow: -16px 16px $color-orange;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.c-niewsbrief {
+  background-color: $color-orange;
+  color: $color-white;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.c-box__1 {
+  position: relative;
+  left: 550px;
+  bottom: 350px;
+  z-index: 2;
+  max-width: fit-content;
+}
+.c-box__2 {
+  position: relative;
+  top: 150px;
+
+  z-index: 1;
 }
 
 /*---------------------------------------/*
@@ -61,8 +98,15 @@ body::-webkit-scrollbar {
   border-width: 1rem;
   border-color: $color-orange;
 }
+.accordion {
+  position: relative;
+  left: 351px;
+  max-width: fit-content;
+}
 .accordion-item {
+  margin-top: 1rem;
   font-family: $font-standard;
+  font-size: 1rem;
   width: 15rem;
   color: $color-orange;
 }
