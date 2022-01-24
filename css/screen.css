@@ -1,0 +1,88 @@
+/*---------------------------------------/*
+ # SETTINGS
+/*---------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/*---------------------------------------/*
+ # GENERIC
+/*---------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*---------------------------------------/*
+ # ELEMENTS
+/*---------------------------------------*/
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*---------------------------------------/*
+ # OBJECTS
+/*---------------------------------------*/
+/*---------------------------------------/*
+ # COMPONENTS
+/*---------------------------------------*/
+.c-header {
+  font-family: "Open Sans", sans-serif;
+  border-bottom: solid;
+  border-width: 1rem;
+  border-color: #ee863a;
+}
+
+/*---------------------------------------/*
+ # BOOTSTRAP
+/*---------------------------------------*/
+.navbar-toggler {
+  filter: invert(100%);
+}
+
+.nav-link:hover {
+  color: #ee863a !important;
+}
+
+.carousel-indicators .active {
+  background-color: #ee863a;
+}
+
+.carousel {
+  border-bottom: solid;
+  border-width: 1rem;
+  border-color: #ee863a;
+}
+
+.accordion-item {
+  font-family: "Open Sans", sans-serif;
+  width: 15rem;
+  color: #ee863a;
+}
+
+.accordion-body {
+  border: solid;
+  border-width: 1px;
+  border-color: #ee863a;
+}
+
+.accordion-button {
+  color: #ee863a;
+  background: none;
+  border: solid;
+  border-width: 1px;
+  border-color: #ee863a;
+}
+.accordion-button::after {
+  filter: invert(100%);
+  color: #ee863a;
+}
+
+.accordion-button:focus {
+  color: #ee863a;
+  background: none;
+  border: solid;
+  border-width: 1px;
+  border-color: #ee863a;
+  box-shadow: none;
+}
+
+/*---------------------------------------/*
+ # UTILITIES
+/*---------------------------------------*/

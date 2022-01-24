@@ -1,0 +1,91 @@
+/*---------------------------------------/*
+ # SETTINGS
+/*---------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$color-black: black;
+$color-orange: #ee863a;
+$color-white: white;
+$color-lighgray: #f4f4f4;
+$font-standard: "Open Sans", sans-serif;
+
+/*---------------------------------------/*
+ # GENERIC
+/*---------------------------------------*/
+body {
+  font-family: $font-standard;
+}
+/*---------------------------------------/*
+ # ELEMENTS
+/*---------------------------------------*/
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*---------------------------------------/*
+ # OBJECTS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+ # COMPONENTS
+/*---------------------------------------*/
+.c-header {
+  font-family: $font-standard;
+  border-bottom: solid;
+  border-width: 1rem;
+  border-color: $color-orange;
+}
+
+/*---------------------------------------/*
+ # BOOTSTRAP
+/*---------------------------------------*/
+.navbar-toggler {
+  filter: invert(100%);
+}
+.nav-link {
+  &:hover {
+    color: $color-orange !important ;
+  }
+}
+
+.carousel-indicators .active {
+  background-color: $color-orange;
+}
+.carousel {
+  border-bottom: solid;
+  border-width: 1rem;
+  border-color: $color-orange;
+}
+.accordion-item {
+  font-family: $font-standard;
+  width: 15rem;
+  color: $color-orange;
+}
+.accordion-body {
+  border: solid;
+  border-width: 1px;
+  border-color: $color-orange;
+}
+.accordion-button {
+  color: $color-orange;
+  background: none;
+  border: solid;
+  border-width: 1px;
+  border-color: $color-orange;
+  &::after {
+    filter: invert(100%);
+    color: $color-orange;
+  }
+}
+.accordion-button:focus {
+  color: $color-orange;
+  background: none;
+  border: solid;
+  border-width: 1px;
+  border-color: $color-orange;
+  box-shadow: none;
+}
+
+/*---------------------------------------/*
+ # UTILITIES
+/*---------------------------------------*/
