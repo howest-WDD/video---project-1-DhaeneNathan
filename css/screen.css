@@ -65,6 +65,32 @@ body::-webkit-scrollbar {
   padding-bottom: 2.5rem;
 }
 
+.c-container {
+  margin-left: 150px;
+}
+.c-container__2 {
+  margin-left: 300px;
+  margin-top: 1rem;
+}
+
+.c-box__3 {
+  position: relative;
+  z-index: 1;
+  margin-left: -116px;
+}
+
+.c-box__4 {
+  position: relative;
+  z-index: 2;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.c-footer__bottom {
+  background-color: #44c8f5 !important;
+  margin: 0;
+}
+
 /*---------------------------------------/*
  # BOOTSTRAP
 /*---------------------------------------*/
@@ -89,6 +115,13 @@ body::-webkit-scrollbar {
 .accordion {
   position: relative;
   left: 582px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.accordion__2 {
+  position: relative;
+  left: 514px;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
