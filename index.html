@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/screen.css" />
+    <link rel="icon" type="image/png" href="https://www.vivasara.be/images/ico-viva-sara.png" sizes="196x196">
   </head>
   <body>
     <header class="c-header">
@@ -74,7 +75,7 @@
     <div class="c-container">
       <div class="container">
         <div class="row flex-nowrap">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6 col-sm-8">
             <!-- <div class="container"> -->
             <div class="c-text">
               <h2>Kaffée</h2>
@@ -84,10 +85,10 @@
             </div>
             <!-- </div> -->
           </div>
-  
-          <div class="col-lg-10">
+
+          <div class="col-lg-9 col-md-6 col-sm-4">
             <!-- <div class="container"> -->
-            <div class="c-video"><iframe width="912" height="513" src="https://www.youtube.com/embed/kYJWzb4L4eA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="c-video"><iframe class="c-video-beeld" src="https://www.youtube.com/embed/kYJWzb4L4eA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
@@ -110,21 +111,22 @@
     <div class="c-container__2">
       <div class="container">
         <div class="row flex-nowrap">
-          <div class="col-lg-4">
+          <div class="col-lg-4  col-md-4 col-sm-3">
             <div class="c-box__4">
               <div class="container">
-                <img src="images/corner.jpg" alt="corner" />
+                <img class="c-foto" src="images/corner.jpg" alt="corner" />
               </div>
             </div>
           </div>
-          <div class="col-lg-5">
+
+          <div class="col-lg-5 col-md-8 col-sm-8">
             <div class="c-box__3">
               <div class="c-text__2">
                 <h2>Corner</h2>
                 <p>Na het shoppen kan je hier heerlijk nagenieten van een lekker kopje koffie of thee. De Viva Sara Corner heeft een mooi aanbod aan koffie en thee afkomstig van plantages en specifieke tuinen overal ter wereld. Daarnaast is er ook keuze uit pralines, koekjes, peperkoek, confituur,…</p>
                 <p>uit het Viva Sara, Viva Lena en Viva Laura assortiment. haar tweede Corner in AZ Groeninge. Je kan deze Corner rechts aan de hoofdingang vinden. Take Away, ideaal voor bezoekers of patiënten die eventjes nood hebben aan een heerlijk kopje koffie of thee.</p>
               </div>
-    
+
               <div class="accordion__2">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingTwo">
@@ -140,7 +142,6 @@
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
@@ -154,17 +155,25 @@
       </div>
     </div>
 
-
-    <footer class="c-footer">
-      <div class="conainer">
-        <ul>
-          <li class="nav-item"><a class="nav-link" href="#">privacy</a></li>
+    <footer class="text-center">
+      <div class="container">
+        <ul class="navbar c-footer-nav justify-content-center">
+          <li ><a class="nav-link" href="#">privacy</a></li>
+          <li><a class="nav-link" href="#">retour</a></li>
+          <li><a class="nav-link" href="#">contact</a></li>
+          <li><a class="nav-link" href="#">sitemap</a></li>
         </ul>
-
-
-        
+        <ul class="navbar c-footer-nav justify-content-center">
+          <li ><a href="https://www.facebook.com/Viva-Sara-271967942846960/?fref=ts" target="blank"><img class="nav-link" src="images/facebook.svg" alt="facebook"></a></li>
+          <li><a href="https://www.instagram.com/viva_sara/" target="blank"><img class="nav-link" src="images/instagram.svg" alt="instagram"></a></li>
+        </ul>
+        <a href="#"><img src="images/logo-viva-sara.svg" alt="logo-viva-sara"></a>
       </div>
-      <p class="text-center c-footer__bottom mt-2 pt-1 pb-1">&copy; 2021-2022 MIT - Project 1</p>
+
+      <div class="text-center c-footer__bottom mt-2 pt-1 pb-1">
+        <p>&copy; 2021-2022 MIT - Project 1</p>
+        <img height="50" src="https://www.howest.be/sites/default/files/styles/width_500/public/howest-hogeschool-logo.png?itok=90UXvdWg" alt="">
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
