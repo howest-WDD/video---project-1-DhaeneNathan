@@ -53,25 +53,25 @@ body::-webkit-scrollbar {
     height: 185px;
     width: 330px;
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 65px;
   }
   @media (min-width: 993px) {
     height: 300px;
     width: 535px;
-    margin-left: 125px;
+    margin-left: 170px;
   }
   @media (min-width: 1201px) {
     height: 416px;
     width: 740px;
-    margin-left: 70px;
+    margin-left: 115px;
   }
   @media (min-width: 1400px) {
     height: 513px;
     width: 912px;
-    margin-left: 20px;
+    margin-left: 65px;
   }
   @media (min-width: 1600px) {
-    margin-left: 0px;
+    margin-left: 45px;
   }
 }
 .c-text {
@@ -124,6 +124,7 @@ body::-webkit-scrollbar {
   @media (min-width: 993px) {
     margin-left: -200px;
     margin-top: 0px;
+    width: 362px;
   }
   @media (min-width: 1201px) {
     margin-left: -140px;
